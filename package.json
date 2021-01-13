@@ -1,0 +1,29 @@
+{
+  "name": "mentalmap",
+  "description": "What's your top percentage?",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon babel-node init.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twmwvision/mentalmap.git"
+  },
+  "author": "KimJunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twmwvision/mentalmap/issues"
+  },
+  "homepage": "https://github.com/twmwvision/mentalmap#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
